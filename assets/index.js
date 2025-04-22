@@ -137,7 +137,7 @@ function isEmpty(value){
 
 function forwardToId(params){
     // Przekierowujemy do strony home.html z parametrami
-    location.href = "home.html?" + params;
+    location.href = "id.html?" + params;
 }
 
 var guide = document.querySelector(".guide_holder");
